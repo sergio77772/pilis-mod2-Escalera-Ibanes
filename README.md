@@ -25,8 +25,7 @@ Si quieres obtener tu propio token de API puedes hacerlo creando una cuenta all√
 
 ## Vista Previa
 
-![](images/photo1661538242.jpeg)
-
+![](images/preview-tpf-mod2.gif)
 
 ## Desarrolladores
 
