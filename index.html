@@ -1,52 +1,232 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>La Peña</title>
-    
-        <!-- custom favicon img link -->
-        <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png"/>
-        <link rel="icon" type="image/png"sizes="32x32" href="images/favicon-32x32.png"/>
-        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png"/>
-        <link rel="manifest" href="/site.webmanifest" />
-    
-        <!-- font awesome cdn link  -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
-    
-        <!-- custom css file link  -->
-        <link rel="stylesheet" href="css/style.css" />
-    
-        <!-- custom css alertform link  -->
-        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    
-        <!--Icon-Font-->
-      <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
-    
-      </head>
-<body>
-     <!-- header section starts  -->
+<html lang="es">
 
-     <header class="header">
-        <a href="#" class="logo">
-          <img src="images/logo.png" alt="" />
-        </a>
-  
-        <nav class="navbar">
-          <a href="#home">home</a>
-          <a href="#evento">evento</a>
-          <a href="#productos">productos</a>
-          <a href="#nosotros">nosotros</a>
-          <a href="#contacto">contacto</a>
-          <a href="#clima">clima</a>
-        </nav>
-        <div class="icons">
-          <div class="fas fa-bars" id="menu-btn"></div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>La Peña</title>
+
+  <!-- custom favicon img link -->
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+
+  <!-- font awesome cdn link  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+  <!-- custom css file link  -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- custom css alertform link  -->
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+  <!--Icon-Font-->
+  <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- header section starts  -->
+
+  <header class="header">
+    <a href="#" class="logo">
+      <img src="images/logo.png" alt="" />
+    </a>
+
+    <nav class="navbar">
+      <a href="#home">home</a>
+      <a href="#evento">evento</a>
+      <a href="#productos">productos</a>
+      <a href="#nosotros">nosotros</a>
+      <a href="#contacto">contacto</a>
+      <a href="#clima">clima</a>
+    </nav>
+    <div class="icons">
+      <div class="fas fa-bars" id="menu-btn"></div>
+    </div>
+  </header>
+
+  <!-- header section ends -->
+
+  <!-- home section starts  -->
+
+  <section class="home" id="home">
+    <div class="content">
+      <h3>Vinos Exclusivos</h3>
+      <p>
+        Mira la información de miles de vinos y bodegas <br />
+        Realizar tus pedidos en segundos <br />
+        Hace una lista de tus vinos favoritos
+      </p>
+    </div>
+  </section>
+
+  <!-- home section ends -->
+
+  <!-- evento section starts  -->
+
+  <section class="evento" id="evento">
+    <h1 class="heading"><span>evento</span></h1>
+
+    <div class="row">
+      <iframe class="video"
+        src="https://www.youtube.com/embed/f3UDDxZ4IIk?autoplay=1&mute=1&loop=1&controls=1"></iframe>
+
+      <div class="content">
+        <h3>¿nuestros vinos son tan especial?</h3>
+        <p>
+          Lo que le da una característica particular a los vinos argentinos es
+          justamente esas condiciones climáticas que dan como aporte ese
+          perfil de vinos y que tienen una buena relación precio y calidad
+        </p>
+        <p>
+          Dulzor: la sensación de dulzor en boca. Taninos: las sensaciones de
+          astringencia y rugosidad en boca. Acidez: la sensación de frescor en
+          boca. Alcohol: la sensación de calidez en boca
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- evento section ends -->
+
+  <!-- productos section starts -->
+
+  <section class="productos" id="productos">
+    <h1 class="heading"><span>Productos</span></h1>
+
+    <div class="box-container">
+      <div class="box">
+        <div class="image">
+          <img src="images/product-1.png" alt="" />
         </div>
-      </header>
-  
-      <!-- header section ends -->
-  
+        <div class="content">
+          <h3>Vino Blanco Torrontés</h3>
+          <div class="precio">$1599.90 <span>$2199.90</span></div>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="image">
+          <img src="images/product-2.png" alt="" />
+        </div>
+        <div class="content">
+          <h3>Vino Cabernet Sauvignon</h3>
+          <div class="precio">$1599.90 <span>$2199.90</span></div>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="image">
+          <img src="images/product-3.png" alt="" />
+        </div>
+        <div class="content">
+          <h3>Vino Rosado de Malbec</h3>
+          <div class="precio">$1599.90 <span>$2199.90</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- productos section ends -->
+
+  <!-- nosotros section starts  -->
+
+  <section class="nosotros" id="nosotros">
+    <h1 class="heading"><span>Nosotros</span></h1>
+
+    <div class="box-container">
+      <div class="box">
+        <img src="images/quote-img.png" alt="" class="quote" />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla
+          sit libero nemo fuga sequi nobis? Necessitatibus aut laborum, nisi
+          quas eaque laudantium consequuntur iste ex aliquam minus vel? Nemo.
+        </p>
+        <img src="images/pic-1.png" class="user" alt="" />
+        <h3>Escalera Walter</h3>
+      </div>
+
+      <div class="box">
+        <img src="images/quote-img.png" alt="" class="quote" />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla
+          sit libero nemo fuga sequi nobis? Necessitatibus aut laborum, nisi
+          quas eaque laudantium consequuntur iste ex aliquam minus vel? Nemo.
+        </p>
+        <img src="images/pic-3.png" class="user" alt="" />
+        <h3>Ibañes Emanuel</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- nosotros section ends -->
+
+  <!-- contacto section starts  -->
+
+  <section class="contacto" id="contacto">
+    <h1 class="heading"><span>contacto</span></h1>
+
+    <div class="row">
+      <iframe class="map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3639.6668822490055!2d-65.33348658552636!3d-24.18341279074102!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941b0ee2033f07f3%3A0xc77a811c6a4b0561!2sCiudad%20Cultural!5e0!3m2!1ses-419!2sar!4v1661270030653!5m2!1ses-419!2sar"
+        allowfullscreen="" loading="lazy">
+      </iframe>
+      <!--formulario-->
+      <form id="formulario" action="">
+        <h3>Formulario</h3>
+        <div class="inputBox">
+          <span class="fas fa-user"></span>
+          <input id="name" type="text" placeholder="nombre" required />
+        </div>
+        <div class="inputBox">
+          <span class="fas fa-envelope"></span>
+          <input id="email" type="email" placeholder="email" required />
+        </div>
+        <div class="inputBox">
+          <span class="fas fa-phone"></span>
+          <input id="phone" type="number" placeholder="celular" required />
+        </div>
+        <input id="send" type="submit" value="Enviar" class="btn" />
+      </form>
+    </div>
+  </section>
+
+  <!-- contacto section ends -->
+
+  <!-- clima section starts  -->
+
+  <section class="clima" id="clima">
+
+    </div>
+
+    <div class="weather-card" id="card">
+      <div class="city" id="city">San Salvador de Jujuy, Ar</div>
+      <div class="date" id="date">22/08/2021</div>
+      <div class="temperature">
+        <img class="temp-img" id="icon" />
+        <div class="temp" id="temp">14°C</div>
+      </div>
+      <div class="weather" id="weather">Sol</div>
+      <div class="range" id="range">Min: 12°C / Max: 18°C</div>
+    </div>
+
+    <div class="share">
+      <a href="https://es-la.facebook.com/" target="_blank" class="fab fa-facebook-f"></a>
+      <a href="https://twitter.com/?lang=es" target="_blank" class="fab fa-twitter"></a>
+      <a href="https://www.instagram.com/" target="_blank" class="fab fa-instagram"></a>
+      <a href="https://ar.linkedin.com/" target="_blank" class="fab fa-linkedin"></a>
+      <a href="https://api.whatsapp.com/send?phone=5493885708363" class="btn-wsp" target="_blank">
+        <i class="fa fa-whatsapp icono"></i>
+      </a>
+
+  </section>
+
+  <!-- clima section ends -->
+
+  <!-- custom js file link  -->
+  <script src="js/main.js"></script>
 </body>
+
 </html>
