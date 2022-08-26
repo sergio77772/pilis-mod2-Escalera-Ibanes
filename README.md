@@ -23,6 +23,11 @@ Utilizamos el API para obtener (GET) los datos del tiempo [Open Weather Map]  (h
 
 Si quieres obtener tu propio token de API puedes hacerlo creando una cuenta allí, sino utiliza el que viene con el proyecto.
 
+## Vista Previa
+
+![](images/photo1661538242.jpeg)
+
+
 ## Desarrolladores
 
 >Ibañes Emanuel Alejandro 
