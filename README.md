@@ -4,12 +4,12 @@
 Registro de comercios para eventos comerciales
 
 ## Caracteristica del Proyecto
-● Usamos una paleta de colores según el estilo del evento elegido.
-● Usar semántica html.
-● Usar promesas.
-● Usar fuentes de google fonts.
-● Usar Api para hacer get y post (jsonplaceholder para enviar datos del registro, otro para traer datos del tiempo).
-● Assets como el texto, imágenes y videos de contenido puede usar los que requiera, pueden Para aprobar debe cumplir con ser dummies.
+- Usamos una paleta de colores según el estilo del evento elegido.
+- Usamos semántica html.
+- Usamos promesas.
+- Usamos fuentes de google fonts.
+- Usamos Api para hacer get y post (jsonplaceholder para enviar datos del registro, otro para traer datos del tiempo).
+- Usamos Assets como el texto, imágenes y videos de contenido.
 
 ## Tecnologia
 La Peña utiliza una serie de código abierto para funcionar correctamente, el mismo se encuentra en un [repositorio público] en GitHub
@@ -25,6 +25,7 @@ Si quieres obtener tu propio token de API puedes hacerlo creando una cuenta all�
 
 ## Desarrolladores
 
->Ibañes Emanuel Alejandro
+>Ibañes Emanuel Alejandro 
+
 >Escalera Walter Samuel
 
